@@ -15,7 +15,7 @@ public class ProductsPage extends BaseTest{
 
 	
 	public ProductsPage() {
-		//PageFactory.initElements(new AppiumFieldDecorator(driver), this);
+		PageFactory.initElements(new AppiumFieldDecorator(driver), this);
 	}
 
 
