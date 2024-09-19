@@ -22,7 +22,7 @@ public class LoginPage extends BaseTest{
 	
 	
 	public LoginPage() {
-		//PageFactory.initElements(new AppiumFieldDecorator(driver), this);
+		PageFactory.initElements(new AppiumFieldDecorator(driver), this);
 	}
 
 	public LoginPage enterUserName(String userName) {
